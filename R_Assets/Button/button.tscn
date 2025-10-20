@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://cufu2uqwqlouj"]
+
+[ext_resource type="Script" uid="uid://cqk6gpxmdohg4" path="res://R_Assets/Button/RUMIA_Button.cs" id="1_y0mkp"]
+
+[node name="Button" type="Control"]
+layout_mode = 3
+anchor_right = 0.014
+anchor_bottom = 0.025
+offset_right = 15.872
+offset_bottom = 15.799999
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_y0mkp")
+R_Height = 1
+R_Width = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+action_mode = 0
