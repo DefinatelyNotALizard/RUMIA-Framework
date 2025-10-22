@@ -12,7 +12,7 @@ offset_right = 380.0
 offset_bottom = 395.0
 R_Height = 5
 R_Width = 19
-R_Title = "Window"
+R_Title = "III"
 
 [node name="Button" parent="." instance=ExtResource("1_bwjdt")]
 offset_left = 340.0

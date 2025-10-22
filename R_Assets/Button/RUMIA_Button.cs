@@ -30,9 +30,8 @@ public partial class Tile : Node2D{
 			texturePath += "_right.png";
 		}
 
-		var sprite = new Sprite2D();
-
 		//===Load the path we built into a sprite and add as child
+		var sprite = new Sprite2D();
 		sprite.Texture = ResourceLoader.Load<Texture2D>(texturePath);
 		AddChild(sprite);
 	}
@@ -87,7 +86,7 @@ public partial class Tile : Node2D{
 			return;
 		_checkTimer = 0.0;//===If it has we reset it and proceed to the next part
 
-		//===We essentially check if anything changed, if yes then update variables and rebuild
+		//===We check if anything changed, if yes then update variables and rebuild
 		if (R_Width != _lastWidth || R_Height != _lastHeight || R_Text != _lastText){
 			_lastWidth = R_Width;
 			_lastHeight = R_Height;
@@ -133,8 +132,7 @@ public partial class Tile : Node2D{
 		};
 
 		//===Get the font ready
-		var font = new FontFile();
-		font = ResourceLoader.Load<FontFile>("res://R_Assets/R_font.ttf");
+		var font = ResourceLoader.Load<FontFile>("res://R_Assets/R_font.ttf");
 
 		//===Create a theme for the font
 		var theme = new Theme();
