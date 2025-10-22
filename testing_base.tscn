@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://3t7yrqtfv075"]
+
+[ext_resource type="PackedScene" uid="uid://cufu2uqwqlouj" path="res://R_Assets/Button/button.tscn" id="1_bwjdt"]
+[ext_resource type="PackedScene" uid="uid://qleenr12kao8" path="res://R_Assets/Window/window.tscn" id="1_wnbbv"]
+
+[node name="Testing base" type="Node2D"]
+
+[node name="Window" parent="." instance=ExtResource("1_wnbbv")]
+offset_left = 44.0
+offset_top = 251.0
+offset_right = 380.0
+offset_bottom = 395.0
+R_Height = 5
+R_Width = 19
+R_Title = "Window"
+
+[node name="Button" parent="." instance=ExtResource("1_bwjdt")]
+offset_left = 340.0
+offset_top = 259.0
+offset_right = 355.872
+offset_bottom = 274.8
+R_Height = 0
+R_Width = 0
+R_Text = "X"
+
+[connection signal="Pressed" from="Button" to="Window" method="_On_Button_Pressed"]
