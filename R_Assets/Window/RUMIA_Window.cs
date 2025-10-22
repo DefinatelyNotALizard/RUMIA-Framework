@@ -60,6 +60,10 @@ public partial class RUMIA_Window : Control
 		RebuildVisuals();
 	}
 
+	private void _On_Button_Pressed(){
+		GD.Print("Sibling RUMIA_Button pressed!");
+	}
+
 	public override void _Process(double delta)
 	{
 		if (!Engine.IsEditorHint())
@@ -117,13 +121,13 @@ public partial class RUMIA_Window : Control
 		var titleLabel = new Label
 		{
 			Text = R_Title,
-			Position = new Vector2(0, 0),
+			Position = new Vector2(0, 5),
 			Size = new Vector2((R_Width + 2) * tileSize, 24),
 			HorizontalAlignment = HorizontalAlignment.Center,
 			VerticalAlignment = VerticalAlignment.Center
 		};
 
-		var font = ResourceLoader.Load<FontFile>("res://R_Assets/BigBlueTerm437NerdFont-Regular.ttf");
+		var font = ResourceLoader.Load<FontFile>("res://R_Assets/R_font.ttf");
 		var theme = new Theme();
 		theme.SetFont("font", "Label", font);
 		theme.SetFontSize("font_size", "Label", 20);
@@ -131,5 +135,8 @@ public partial class RUMIA_Window : Control
 
 		titleLabel.Theme = theme;
 		AddChild(titleLabel);
+
+
+
 	}
 }
