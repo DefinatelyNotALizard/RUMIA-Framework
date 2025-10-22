@@ -1,0 +1,9 @@
+Reusable User Modifiable Interface Assets (RUMIA) Framework.
+Version 0.0.0 Gamma
+Started on 10/10/2025
+Currently developing features:
+- Buttons
+- Windows
+- Generic Bar
+- Sliders
+- UI SFX Manager
