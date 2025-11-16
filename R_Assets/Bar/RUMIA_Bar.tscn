@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://b210umniokhp5"]
+
+[ext_resource type="Script" uid="uid://c2ve36hja52q8" path="res://R_Assets/Bar/RUMIA_Bar.cs" id="1_i3p07"]
+
+[node name="RUMIA_bar-canvas" type="CanvasLayer"]
+script = ExtResource("1_i3p07")
+Position = 0
+
+[node name="Bar" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
