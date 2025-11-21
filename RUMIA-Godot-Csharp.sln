@@ -1,6 +1,6 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RUMIA-Godot-Csharp", "RUMIA-Godot-Csharp.csproj", "{0A8050A9-CCEB-4598-834D-9383F4012DFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RUMIA-Godot-Csharp", "RUMIA-Godot-Csharp.csproj", "{7EDFDC66-62DB-4002-8F56-9C30ED464E67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,11 +9,11 @@ Global
 	ExportRelease|Any CPU = ExportRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0A8050A9-CCEB-4598-834D-9383F4012DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A8050A9-CCEB-4598-834D-9383F4012DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A8050A9-CCEB-4598-834D-9383F4012DFF}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
-		{0A8050A9-CCEB-4598-834D-9383F4012DFF}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
-		{0A8050A9-CCEB-4598-834D-9383F4012DFF}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
-		{0A8050A9-CCEB-4598-834D-9383F4012DFF}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{7EDFDC66-62DB-4002-8F56-9C30ED464E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDFDC66-62DB-4002-8F56-9C30ED464E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDFDC66-62DB-4002-8F56-9C30ED464E67}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{7EDFDC66-62DB-4002-8F56-9C30ED464E67}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{7EDFDC66-62DB-4002-8F56-9C30ED464E67}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{7EDFDC66-62DB-4002-8F56-9C30ED464E67}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
 	EndGlobalSection
 EndGlobal

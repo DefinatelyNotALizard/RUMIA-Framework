@@ -144,7 +144,13 @@ public partial class Tile : Node2D{
 		clickSurface.Theme = theme;
 
 		//===Connect the Button pressed signal to our custom signal
-		clickSurface.Pressed += () => EmitSignal(SignalName.Pressed);
+		clickSurface.Pressed += () =>
+{
+	R_SFXManager.Instance.StartSound("nun");
+	EmitSignal(SignalName.Pressed);
+};
+
+
 
 		//===Add the button to the Rumia button
 		AddChild(clickSurface);

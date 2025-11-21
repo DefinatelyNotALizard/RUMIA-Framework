@@ -15,6 +15,10 @@ run/main_scene="uid://3t7yrqtfv075"
 config/features=PackedStringArray("4.5", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+R_SFX="*res://R_Assets/SFX_Manager/R_SFXManager.cs"
+
 [display]
 
 window/size/mode=3
