@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://3t7yrqtfv075"]
+[gd_scene load_steps=5 format=3 uid="uid://3t7yrqtfv075"]
 
 [ext_resource type="PackedScene" uid="uid://cufu2uqwqlouj" path="res://R_Assets/Button/button.tscn" id="1_bwjdt"]
 [ext_resource type="PackedScene" uid="uid://qleenr12kao8" path="res://R_Assets/Window/window.tscn" id="1_wnbbv"]
 [ext_resource type="PackedScene" uid="uid://b210umniokhp5" path="res://R_Assets/Bar/RUMIA_Bar.tscn" id="3_qfmhj"]
+[ext_resource type="PackedScene" uid="uid://l1s1jh2wobwd" path="res://R_Assets/Slider/slider.tscn" id="4_xp2rj"]
 
 [node name="Testing base" type="Node2D"]
 
@@ -32,5 +33,12 @@ Alignment = 1
 Position = 2
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Slider" parent="." instance=ExtResource("4_xp2rj")]
+offset_left = -136.0
+offset_top = 21.0
+offset_right = -136.0
+offset_bottom = 21.0
+R_Width = 70
 
 [connection signal="Pressed" from="Button" to="Window" method="_On_Button_Pressed"]

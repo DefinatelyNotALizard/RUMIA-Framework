@@ -19,10 +19,6 @@ config/icon="res://icon.svg"
 
 R_SFX="*res://R_Assets/SFX_Manager/R_SFXManager.cs"
 
-[display]
-
-window/size/mode=3
-
 [dotnet]
 
 project/assembly_name="RUMIA-Godot-Csharp"
